@@ -1,0 +1,49 @@
+/* Styles for the QR code feature resembling a banking site interface */
+.qr-generator, .qr-decoder {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #009688;
+    border-radius: 4px;
+  }
+  
+  .action-button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .qr-code-display {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .qr-canvas {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .decoded-info {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
